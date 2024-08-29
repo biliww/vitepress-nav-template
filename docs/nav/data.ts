@@ -42,6 +42,28 @@ export const NAV_DATA: NavData[] = [
     ],
   },
   {
+    title: 'web设计汇总',
+    items: [
+      {
+        icon: 'https://icon.kitchen/favicon.ico',
+        title: 'icon',
+        desc: '图标设计网站',
+        link: 'https://icon.kitchen',
+      },
+    ],
+  },
+  {
+    title: '图像处理',
+    items: [
+      {
+        icon: 'https://squoosh.app/c/favicon-c9cf50ef.ico',
+        title: 'squoosh',
+        desc: '图像压缩,格式转换',
+        link: 'https://squoosh.app',
+      },
+    ],
+  },
+  {
     title: 'AI 导航',
     items: [
       {
@@ -66,112 +88,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: '茂茂的站点导航',
-    items: [
-      {
-        icon: '/logo.png',
-        title: '前端日常笔记',
-        desc: '日常笔记记录（零零散散啥都记系列）',
-        link: 'https://github.com/maomao1996/daily-notes',
-      },
-      {
-        icon: '/logo.png',
-        title: '前端思维导图',
-        desc: '用思维导图的方式总结个人所学知识',
-        link: 'https://mindmap.fe-mm.com',
-      },
-      {
-        icon: 'https://qwerty.fe-mm.com/apple-touch-icon.png',
-        title: 'Qwerty Learner',
-        desc: '为键盘工作者设计的单词记忆与英语肌肉记忆锻炼软件',
-        link: 'https://qwerty.fe-mm.com',
-      },
-      {
-        icon: '/logo.png',
-        title: 'mmPlayer',
-        desc: 'mmPlayer 在线音乐播放器',
-        link: 'https://netease-music.fe-mm.com',
-      },
-    ],
-  },
-  {
-    title: 'React 生态',
-    items: [
-      {
-        icon: 'https://zh-hans.reactjs.org/favicon.ico',
-        title: 'React',
-        desc: '用于构建用户界面的 JavaScript 库',
-        link: 'https://zh-hans.reactjs.org',
-      },
-      {
-        icon: 'https://reactrouter.com/favicon-light.png',
-        title: 'React Router',
-        desc: 'React 的声明式路由',
-        link: 'https://reactrouter.com',
-      },
-      {
-        icon: 'https://nextjs.org/static/favicon/safari-pinned-tab.svg',
-        title: 'Next.js',
-        desc: '一个用于 Web 的 React 框架',
-        link: 'https://nextjs.org',
-      },
-      {
-        icon: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
-        title: 'UmiJS',
-        desc: '插件化的企业级前端应用框架',
-        link: 'https://umijs.org',
-      },
-      {
-        icon: 'https://gw.alipayobjects.com/zos/rmsportal/rlpTLlbMzTNYuZGGCVYM.png',
-        title: 'Ant Design',
-        desc: '一套企业级 UI 设计语言和 React 组件库',
-        link: 'https://ant.design',
-      },
-      {
-        icon: 'https://gw.alipayobjects.com/zos/bmw-prod/69a27fcc-ce52-4f27-83f1-c44541e9b65d.svg',
-        title: 'Ant Design Mobile',
-        desc: '构建移动 WEB 应用程序的 React 组件库',
-        link: 'https://mobile.ant.design',
-      },
-      {
-        icon: 'https://docs.pmnd.rs/apple-touch-icon.png',
-        title: 'Zustand',
-        desc: '一个小型、快速、可扩展的 React 状态管理解决方案',
-        link: 'https://docs.pmnd.rs/zustand/getting-started/introduction',
-      },
-      {
-        icon: 'https://valtio.pmnd.rs/favicon.ico',
-        title: 'Valtio',
-        desc: 'makes proxy-state simple for React and Vanilla',
-        link: 'https://valtio.pmnd.rs',
-      },
-      {
-        icon: 'https://jotai.org/favicon.svg',
-        title: 'Jotai',
-        desc: 'primitive and flexible state management for React',
-        link: 'https://jotai.org',
-      },
-      {
-        icon: 'https://cn.redux.js.org/img/redux.svg',
-        title: 'Redux',
-        desc: 'JavaScript 应用的状态容器，提供可预测的状态管理',
-        link: 'https://cn.redux.js.org',
-      },
-      {
-        icon: 'https://zh.mobx.js.org/assets/mobx.png',
-        title: 'MobX',
-        desc: '一个小型、快速、可扩展的 React 状态管理解决方案',
-        link: 'https://zh.mobx.js.org',
-      },
-      {
-        icon: 'https://ahooks.js.org/simple-logo.svg',
-        title: 'ahooks',
-        desc: '一套高质量可靠的 React Hooks 库',
-        link: 'https://ahooks.js.org/zh-CN',
-      },
-    ],
-  },
+
   {
     title: 'Vue 生态',
     items: [
@@ -313,41 +230,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: 'Node 相关',
-    items: [
-      {
-        icon: '/icons/nodejs.svg',
-        title: 'Node.js',
-        desc: 'Node.js 是一个基于 Chrome V8 引擎的 JavaScript 运行环境',
-        link: 'https://nodejs.org/zh-cn',
-      },
-      {
-        icon: 'https://expressjs.com/images/favicon.png',
-        title: 'Express',
-        desc: '基于 Node.js 平台，快速、开放、极简的 Web 开发框架',
-        link: 'https://expressjs.com',
-      },
-      {
-        icon: '/icons/koa.svg',
-        title: 'Koa',
-        desc: '基于 Node.js 平台的下一代 web 开发框架',
-        link: 'https://koajs.com',
-      },
-      {
-        icon: 'https://www.eggjs.org/favicon.png',
-        title: 'Egg',
-        desc: '为企业级框架和应用而生',
-        link: 'https://www.eggjs.org/zh-CN',
-      },
-      {
-        icon: 'https://d33wubrfki0l68.cloudfront.net/e937e774cbbe23635999615ad5d7732decad182a/26072/logo-small.ede75a6b.svg',
-        title: 'Nest.js 中文文档',
-        desc: '用于构建高效且可伸缩的服务端应用程序的渐进式 Node.js 框架',
-        link: 'https://docs.nestjs.cn',
-      },
-    ],
-  },
+
   {
     title: '可视化',
     items: [
@@ -384,53 +267,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: '编译&构建&打包',
-    items: [
-      {
-        icon: 'https://www.webpackjs.com/icon_180x180.png',
-        title: 'Webpack 中文网',
-        desc: '一个用于现代 JavaScript 应用程序的静态模块打包工具',
-        link: 'https://www.webpackjs.com',
-      },
-      {
-        icon: 'https://cn.vitejs.dev/logo.svg',
-        title: 'Vite 中文文档',
-        desc: '下一代前端工具链',
-        link: 'https://cn.vitejs.dev',
-      },
-      {
-        icon: 'https://www.rollupjs.com/img/favicon.png',
-        title: 'Rollup',
-        desc: 'Rollup 是一个 JavaScript 模块打包器',
-        link: 'https://www.rollupjs.com',
-      },
-      {
-        icon: 'https://turbo.build/images/favicon-dark/apple-touch-icon.png',
-        title: 'Turbo',
-        desc: 'Turbo is an incremental bundler and build system optimized for JavaScript and TypeScript, written in Rust',
-        link: 'https://turbo.build',
-      },
-      {
-        icon: 'https://www.babeljs.cn/img/favicon.png',
-        title: 'Babel',
-        desc: 'Babel 是一个 JavaScript 编译器',
-        link: 'https://www.babeljs.cn',
-      },
-      {
-        icon: 'https://esbuild.github.io/favicon.svg',
-        title: 'esbuild',
-        desc: 'An extremely fast bundler for the web',
-        link: 'https://esbuild.github.io',
-      },
-      {
-        icon: 'https://swc.rs/favicon/apple-touch-icon.png',
-        title: 'SWC',
-        desc: 'Rust-based platform for the Web',
-        link: 'https://swc.rs',
-      },
-    ],
-  },
+
   {
     title: '站点生成器',
     items: [
@@ -489,29 +326,7 @@ export const NAV_DATA: NavData[] = [
       },
     ],
   },
-  {
-    title: '前端学习资料',
-    items: [
-      {
-        icon: 'https://developer.mozilla.org/apple-touch-icon.6803c6f0.png',
-        title: 'MDN | Web 开发者指南',
-        desc: 'Mozilla 的开发者平台，提供了大量关于 HTML、CSS 和 JavaScript 的详细文档以及广泛的 Web API 参考资',
-        link: 'https://developer.mozilla.org/zh-CN',
-      },
-      {
-        icon: 'https://static.runoob.com/images/favicon.ico',
-        title: '菜鸟教程',
-        desc: '学的不仅是技术，更是梦想！',
-        link: 'https://www.runoob.com',
-      },
-      {
-        icon: '/icons/es6.svg',
-        title: 'ES6 入门教程',
-        desc: '阮一峰的网络日志',
-        link: 'http://es6.ruanyifeng.com',
-      },
-    ],
-  },
+
   {
     title: '社区',
     items: [
