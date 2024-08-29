@@ -11,8 +11,8 @@ export default defineConfig({
   base: APP_BASE_PATH ? `/${APP_BASE_PATH}/` : '/',
 
   lang: 'zh-CN',
-  title: 'biliw前端导航',
-  description: 'biliw前端导航description',
+  title: 'biliw网站导航',
+  description: 'biliw网站导航description',
   head,
 
   lastUpdated: true,
@@ -57,7 +57,7 @@ export default defineConfig({
       label: '目录',
     },
 
-    socialLinks: [{ icon: 'github', link: 'https://github.com/maomao1996/vitepress-nav-template' }],
+    socialLinks: [{ icon: 'github', link: 'https://blog.wangpl.cn' }],
 
     footer: {
       message: '如有转载或 CV 的请标注本站原文地址',
